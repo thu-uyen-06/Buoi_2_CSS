@@ -1,0 +1,10 @@
+.red{
+    color: red;
+}
+/* Nếu có cái này thì sẽ chỉ nguyên
+cái lớp khai báo "red" là đỏ */
+p{
+    color: blue;
+    /* Nếu để lớp p nguyên như này
+    thì mặc định các lớp p sẽ đỏ */
+}
