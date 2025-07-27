@@ -1,10 +1,55 @@
-.red{
+p.red{
     color: red;
+    font-size: 20px;
+    /* width: 100px; */
+    border-width: 2px;
+    border-color: black;
+    border-style:dashed;
+    /* border-radius: 50%; */
+    /* tạo bo góc */
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: line-through;
 }
 /* Nếu có cái này thì sẽ chỉ nguyên
 cái lớp khai báo "red" là đỏ */
 p{
-    color: blue;
-    /* Nếu để lớp p nguyên như này
-    thì mặc định các lớp p sẽ đỏ */
+    color: green;
+    font-size: 16px;
+    /* border: 2px solid red; */
+    
 }
+    /* viết tắt */
+    /* Nếu để lớp p nguyên như này
+    thì mặc định các lớp p sẽ xanh và có
+    kích thước như này */
+
+html{
+    font-size: 16px;
+}
+h1{
+    font-size: 1.5rem;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+p.moi{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #008cba;
+}
+div{
+    background-color: aliceblue;
+    padding: 8px;
+    border: 1px solid gray;
+}
+
